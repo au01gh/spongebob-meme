@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <title>sPoNgEbOb mEmE TeXt gEnErAtOr</title>
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+</head>
+<body>
+<style>
+    body {
+        background-image: url('Conch_Street.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.95;
+        
+        background-color: lightblue;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    input {
+        text-align: center;
+    }
+</style>
+    <h1>mEmE YoUr tExT BeLoW</h1>
+    <h2>input of the text is below</h2>
+    <h2>
+        <input type = "text" id = "input" placeholder = "type out what you want to say here" size = 50>
+    </h2>
+    <p>
+        <strong>
+            select how the text looks
+        </strong>
+    </p>
+    <strong>
+        <input type = "radio" id = "lower" name = "check" checked>
+        <label for = "lower">lowercase, uppercase, ...</label><br>
+        <input type = "radio" id = "upper" name = "check">
+        <label for = "upper">uppercase, lowercase, ...</label><br>
+    </strong>
+    <h2>
+        <button type = "button" id = "generate" onclick = "work()">generate the text!</button>
+    </h2>
+    <h2>output of the text is below</h2>
+    <h2>
+        <input type = "text" readonly = "true" id = "output" placeholder = "here is the output according to spongebob" size = 50>
+    </h2>
+    <h6>made with &#10084; by ratedarv4blank</h6>
+    <script source = "spongebob.js"></script>
+</body>
+</html>
